@@ -1,4 +1,4 @@
-# $WwwPrfl/All/all-ngx.inc
+# $WwwPrfl/All/All-ngx.inc
 # File: $SrvWww/Prfl/All/all-ngx.inc - Following abs path is from Guest View (ie __GP FSH)
 # (non-standard extension: '.inc', so wildcard below doesn't re-include this file) 
 #  Can't use relative path as that would be relative to master nginx.conf 
