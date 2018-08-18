@@ -6,6 +6,7 @@ echo "Start: nNgxKnDef: $KnN  -  \$0" # $0 only works for Exec, not Source (give
 export KnRtN=$KnN  # \$KnPkgN - Here, use Specific KnN (vs Generic Name)
 export KnPkgN=$KnPkgN	 # (At least for Nginx) this is GENERIC name, so diff KnDef's collide
 export DkrRtImgN=$DkrImgN   # @@@ Base (eg MariaDB) vs RT (eg Nginx)   ^^^ per SrvStk !!!
+export KnConfVer=$KnConfVer
 export KnKlsPFN=\$SrvLib/$KnKlsN.sh
 export ThisKnCtrlHPFN=\$SrvEtcKnz/\$KnRtN;	echo -e "ThisKnCtrlHPFN>>>\$ThisKnCtrlHPFN\n"
 export SvrStkN=$SvrStkN  #Fut: export SvrStkN=Pro  # | Tst | Dev ??? @@@@
