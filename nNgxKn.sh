@@ -6,6 +6,7 @@ if [[ -z "$Srv" ]]; then  echo -e "\n** \$Srv is not defined! **\n"; exit; fi
 export KnN=tNgxKn   # @@@@>> $1  @@@@ check if KnN already in use !!!
 export KnPkgN=nginx
 export DkrImgN=nginx:mainline-alpine
+export KnConfVer=v1
 export KnKlsN=cfNgxDkrLib
 export DkrRunDCmd=''
 export KnGrpN=ZOLO
